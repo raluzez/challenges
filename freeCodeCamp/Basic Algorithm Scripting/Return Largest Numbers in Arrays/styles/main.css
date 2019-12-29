@@ -1,0 +1,7 @@
+#inputsDiv{
+    display: flex;
+    flex-direction: column;
+}
+.array{
+    max-width: 300px;
+}

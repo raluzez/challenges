@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<link rel="stylesheet" href="styles/main.css">
+
+<h1>Finders Keepers</h1>
+<form action="">
+    <div id="arrayInputDiv">
+        <label for="arrayInput">Insert array of numbers</label>
+        <input type="number" class="num" id="arrayInput" required>
+        <input type="number" class="num" required>
+    </div>
+    <div id="addNumDiv">
+        <button type="button" id="addNumButton">Add more numbers</button>
+    </div>
+    <div id="conditionInputDiv">
+        <p>Create function</p>
+        <div id="functionDiv">
+            <p>num</p>
+            <select name="operator" id="operator" required>
+                <option value="-">-</option>
+                <option value="+">+</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+                <option value="%">%</option>
+            </select>
+            <input type="number" id="condition" required>
+            <p>===</p>
+            <input type="number" id="result" required>
+        </div>
+    </div>
+    <button type="button" id="button">Find first number witch match the condition</button>
+</form>
+<div id="display"></div>
+
+<script src="scripts/main.js" type="module"></script>
+<script src="scripts/test.js" type="module"></script>
+</body>
+</html>
