@@ -1,0 +1,16 @@
+{
+    "name": "vendor/name",
+    "authors": [
+        {
+            "name": "Lukas Laurinavicius",
+            "email": "lukaslaurina@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nfq\\": "app/Classes/",
+            "Nfq\\Interfaces\\": "app/Interfaces"
+        }
+    }
+}
