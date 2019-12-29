@@ -1,0 +1,91 @@
+
+html {
+    background:linear-gradient(to right,#ee9ca7,#ffdde1);
+    font-family: 'Lato', sans-serif;
+}
+h1 {
+    text-align:center;
+}
+p{
+    font-size:1.2em;
+    padding-top:25px;
+    text-align:center;
+}
+.form-row {
+    margin-left:20px;
+    margin-right:20px;
+}
+.left-tab{
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    vertical-align:top;
+    margin-top:12px;
+}
+.right-tab{
+    display: inline-block;
+    text-align:left;
+    width: 50%;
+}
+.input-field {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+.dropdown {
+    height: 35px;
+    width: 292px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+.radio-button {
+    float:left;
+}
+.radio, .checkbox {
+    padding-bottom: 10px;
+}
+#form-background {
+    background-color:white;
+    margin:0 auto;
+    width:75%;
+    border-radius:8px;
+    padding-bottom:10px;
+}
+#text-area {
+    height:50px;
+}
+ul {
+    list-style:none;
+    padding-left:5px;
+}
+#submit{
+    background-color:#36383F;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 10px auto;
+    border: 0px solid;
+    display: block;
+}
+@media screen and (max-width: 833px){
+    .input-field, .dropdown {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 520px){
+    .right-tab, .left-tab {
+        display:block;
+        text-align:left;
+        width:100%;
+    }
+    label {
+        width:100%;
+    }
+}

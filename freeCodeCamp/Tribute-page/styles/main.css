@@ -1,0 +1,17 @@
+img {
+    display:block;
+    inline:block;
+    margin: 0 auto;
+}
+#main {
+    margin-top:60px;
+}
+ul {
+    font-size:14px;
+}
+.cite {
+    style="font-weight:normal"
+}
+.link-text {
+    style="font-weight:350"
+}

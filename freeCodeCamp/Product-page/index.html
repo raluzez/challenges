@@ -1,0 +1,97 @@
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+    </script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<div id="main-container">
+    <header id="header">
+        <div id="logo">
+            <a href="#sign-up"><img src="https://previews.dropbox.com/p/thumb/AAJ3Cc8Z-KZywQjJhyASViuyZ2B6mn3llDKbuMJxM4Utqusf3sWhr2-Eq3eKygICNng_csim0C-JjioCmPc0NXjxtzgdabLR4970UyrToEBdQUzkWrZyAsUbLdhHH6R48iOO-9-bcT5DcMuTOGMdtfikQ54OdcZmZNTvEA6VWiAfVQ/p.png?size=1600x1200&size_mode=3" alt="NIKE" id="header-img"></a>
+        </div>
+        <nav id="nav-bar">
+            <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+            <ul id="normal-menu">
+                <li class="nav-link-container"><a href="#features" class="nav-link">Features</a></li>
+                <li class="nav-link-container"><a href="#video-section" class="nav-link">Presentation</a></li>
+                <li class="nav-link-container"><a href="#pricing" class="nav-link">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="sign-up">
+        <h2 id="form-tittle">News and special offers</h2>
+        <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+            <input type="email" name="email" placeholder="Enter your email address" id="email" required>
+            <input type="submit" id="submit">
+        </form>
+    </section>
+    <section id="features">
+        <div id="kyrie-container">
+            <img src="https://content.nike.com/content/dam/one-nike/en_us/season-2017-ho/Basketball/1220_Kyrie_Hub/DT/BBALL_HUB_DT_1221_KYRIE4_P1.jpg.transform/full-screen/BBALL_HUB_DT_1221_KYRIE4_P1.jpg" alt="Kyrie Irving" id="kyrie-photo">
+            <span id="kyrie-span">KYRIE IRVING</span>
+        </div>
+        <div id="features-container">
+            <h2 id="features-tittle">FIND YOUR GROOVE:
+                KYRIE 4</h2>
+            <p class="feature">A smothering defense can wreak havoc on your game,
+                causing the court to feel congested.</p>
+            <p class="feature">All you want is what Kyrie wants — space to crossover,
+                to cut, to spin, to step back — space to get a bucket.</p>
+            <p class="feature">All you need is what Kyrie has — the cut-sharpening,
+                defender-shaking decoupled outsole of the Kyrie 4</p>
+        </div>
+    </section>
+    <section id="video-section">
+        <div id="video-container">
+            <iframe src="//www.youtube.com/embed/QwXBLmHLC-A" id="video" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id="pricing">
+        <div class="pricing-div">
+            <h2 class="pricing-tittle">Kyrie 4</h2>
+            <img src="https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto/g6nsdqcc0ue1vvdafw7z/kyrie-4-basketball-shoe-1PjAjR.jpg" alt="Kyrie 4" class="pricing-img">
+            <h4 class="price">$120</h4>
+            <button class="buynow-button">Buy Now</button>
+        </div>
+        <div class="pricing-div">
+            <h2 class="pricing-tittle">Kyrie Low</h2>
+            <img src="https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto/daoqfo2t5fg4pclqeqdp/kyrie-low-mens-basketball-shoe-sPQ9lt.jpg" alt="Kyrie Low" class="pricing-img">
+            <h4 class="price">$110</h4>
+            <button class="buynow-button">Buy Now</button>
+        </div>
+        <div class="pricing-div">
+            <h2 class="pricing-tittle">Kyrie 4 ID</h2>
+            <img src="https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto/gm0bxwjto3xt5dh4zchq/kyrie-4-n7-basketball-shoe-Bfnpkv.jpg" alt="Kyrie ID" class="pricing-img">
+            <h4 class="price">$140</h4>
+            <button class="buynow-button">Buy Now</button>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-links">
+            <ul id="footer-links-ul">
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <ul id="footer-links-logos">
+                <li><a href=""><i class="fab fa-facebook-square fa-3x social-icon"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter-square fa-3x social-icon"></i></a></li>
+                <li><a href=""><i class="fab fa-google-plus-square fa-3x social-icon"></i></a></li>
+            </ul>
+        </div>
+        <div id="copyright"><small>Copyright &copy; Raluzez 2018</small></div>
+    </footer>
+</div>
+</div>
+</body>
+<script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="scripts/main.js"></script>
+</html>
