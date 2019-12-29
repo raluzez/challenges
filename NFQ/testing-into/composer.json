@@ -1,0 +1,19 @@
+{
+    "name": "lukas/nfq-testing-hw",
+    "authors": [
+        {
+            "name": "Lukas Laurinavicius",
+            "email": "lukaslaurina@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nfq\\": "src/Classes/",
+            "Nfq\\Tests\\": "src/Tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
+}
